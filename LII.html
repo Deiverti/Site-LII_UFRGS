@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instituto de Pesquisas</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-800">LII-IFUFRGS</h1>
+      <nav class="space-x-6">
+        <a href="#" class="text-gray-700 hover:text-blue-700">Sobre</a>
+        <a href="#" class="text-gray-700 hover:text-blue-700">Laboratórios</a>
+        <a href="#" class="text-gray-700 hover:text-blue-700">Projetos</a>
+        <a href="#" class="text-gray-700 hover:text-blue-700">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- VIDEO -->
+  <section class="relative h-screen overflow-hidden text-white">
+    <!-- Vídeo de fundo -->
+    <div class="max-w-xl mx-auto px-6 rounded-lg">
+        <video autoplay muted loop playsinline
+        class="absolute top-0 left-0 w-full h-full object-cover z-0">
+        <source src="202506071152.mp4" type="video/mp4" />
+        Seu navegador não suporta vídeo HTML5.
+      </video>
+    
+
+  <!-- Sobreposição com logotipo e texto -->
+  <div class="absolute inset-0 bg-black/40 z-10 px-4 flex flex-col items-center" style="padding-top: 3rem;">
+    <div class="text-2xl font-semibold mb-8 text-center text-white max-w-3xl">
+      </h3>
+      <!-- Logotipo à esquerda com tamanho personalizado -->
+       <div class="w-full flex justify-between px-10 mt-auto mb-10"></div>
+      <img src="logo_LII.png" alt="Logotipo" style="width: 350px; height: auto;" style="width: 20px; height: auto;" class="absolute bottom-10 left-10 z-20" />
+      <h3 class="text-5xl font-semibold mb-8 text-center">Plataforma multiusuária atendida pelo Programa PREMIUM - PROPESQ</h3>
+  <!-- Sobreposição com logotipo 2 e texto -->
+  <div class="absolute inset-0 bg-black/40 flex items-center justify-center z-10 px-4">
+    <div class="flex items-center gap-6 text-white">
+      <!-- Logotipo à esquerda com tamanho personalizado -->
+      <img src="logo_propesq.png" alt="Logotipo" style="width: 350px; height: auto;" style="width: 20px; height: auto;" class="absolute bottom-10 right-10 z-20" />    
+    
+ 
+    </section>
+
+  <!-- Destaques / Notícias -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      
+      <h3 class="text-2xl font-semibold mb-8 text-center">Destaques</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow rounded-lg overflow-hidden">
+          <img src="https://via.placeholder.com/600x300" alt="Notícia 1" class="w-full">
+          <div class="p-4">
+            <h4 class="text-xl font-bold mb-2">Aberta Chamada: está disponível o período para solicitação de uso dos aceleradores Tandetron e Implantador.</h4>
+            <p class="text-sm text-gray-600">Pesquisadores, alunos, técnicos e cientístas interessados podem submeter solicitações. Incentivamos todos a enviar suas solicitações o quanto antes, pois a disponibilidade é limitada..</p>
+          </div>
+
+
+        </div>
+        <div class="bg-white shadow rounded-lg overflow-hidden">
+          <img src="https://via.placeholder.com/600x300" alt="Notícia 2" class="w-full">
+          <div class="p-4">
+            <h4 class="text-xl font-bold mb-2">Roteiro para cadastramento e submissão de projetos.</h4>
+            <p class="text-sm text-gray-600">Caso queira fazer o cadastramento e a submissão de projetos, você pode seguir o seguinte roteiro</p>
+          </div>
+        </div>
+        <div class="bg-white shadow rounded-lg overflow-hidden">
+          <img src="https://via.placeholder.com/600x300" alt="Notícia 3" class="w-full">
+          <div class="p-4">
+            <h4 class="text-xl font-bold mb-2">Conexões Internacionais</h4>
+            <p class="text-sm text-gray-600">Parcerias internacionais ampliam impacto global da ciência brasileira.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-800 text-gray-300 py-8">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2025 Laboratório de Implantação Iônica do Instituto de Física da UFRGS. Todos os direitos reservados.</p>
+      <div class="space-x-4 mt-4 md:mt-0">
+        <a href="#" class="hover:text-white">LinkedIn</a>
+        <a href="#" class="hover:text-white">Twitter</a>
+        <a href="#" class="hover:text-white">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
